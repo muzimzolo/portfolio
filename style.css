@@ -19,16 +19,31 @@ html {
     align-items: center;
     
 }
+.section-heading {
+    font-size: 5rem;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    margin-bottom: 15rem;
+    border-bottom: 0.3rem solid #333;
+    text-shadow: 0.2rem 0.2rem 0.5rem #555;
+
+}
+
 /* end of common styles */
 /* Section-1 */
 .section-1 {
     width: 100%;
     height: 100vh;
-    background: linear-gradient(white, .2),
-    black, .3, url(images/macbook.jpg) center no-repeat;
+    /* background: linear-gradient(white, .2),
+    black, .3, url(images/macbook.jpg) center no-repeat; */
+    background-color: black;
+    background: url(images/macbook.jpg); */
     background-size: cover;
-   
+    display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
    
 }
 .section-1-heading {
@@ -132,11 +147,6 @@ transform: skew(-10deg);
     text-shadow: 0.2rem 0.2rem 0.5rem #555;
 }
 
-.section-2-heading {
-    font-size: 5rem;
-    color: black
-
-}
 .progress-bars-wrapper {
     margin-bottom: 10rem;
 }
@@ -201,3 +211,17 @@ transform: skew(-10deg);
 
 }
 /* End of Section 2 */
+
+/* Section 3 */
+.section-3 {
+    width: 100%;
+    height: 100%;
+    padding: 10rem;
+    background-color: #eef;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* End of Section 3 */
+
