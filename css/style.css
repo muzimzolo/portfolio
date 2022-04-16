@@ -24,7 +24,7 @@ img {
 /* Profile
 ------------------------------------*/
 header {
-  background: #000;
+  background: #1E90FF;
   color: #F7FFF7;
 }
 
@@ -51,6 +51,6 @@ header {
 /* Contact Info
 ------------------------------------*/
 footer {
-  background: #000;
+  background: #1E90FF;
   color: white;
 }
